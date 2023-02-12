@@ -35,21 +35,21 @@ Feature: Reqres API Automation Testing QE-9
       | @#4 |
       | avg |
 
-  @Tugas @PutRegisters @Negative
+  @Tugas @PutUpdate @Negative
   Scenario: Put update user with invalid json and valid id
     Given Put update user with invalid json and valid id 2
     When Send request put update users
     Then Status code should be 400 Bad Request
     And Response update error body should be "Note: Only defined users succeed update"
 
-  @Tugas @PutRegisters @Negative
+  @Tugas @PutUpdate @Negative
   Scenario: Put update user with null name and valid id
     Given Put update user with null name and valid id 2
     When Send request put update users
     Then Status code should be 400 Bad Request
     And Response update null name error body should be "Missing name"
 
-  @Tugas @PostRegisters @Negative
+  @Tugas @PutUpdate @Negative
   Scenario: Put update user with null job and valid id
     Given Put update user with null job and valid id 2
     When Send request put update users

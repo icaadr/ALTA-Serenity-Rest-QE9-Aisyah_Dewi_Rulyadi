@@ -1,5 +1,5 @@
 Feature: Reqres API Automation Testing QE-9
-  @Tugas @GetResource @Positive
+  @Tugas @GetSingleResource @Positive
   Scenario Outline: Get list single resource with valid parameter
     Given Get list single resource with valid parameter <id>
     When Send request get list single resource
@@ -10,7 +10,7 @@ Feature: Reqres API Automation Testing QE-9
     | 2  |
     | 4  |
 
-  @Tugas @GetResource @Negative
+  @Tugas @GetSingleResource @Negative
   Scenario Outline: Get list single resource with invalid parameter
     Given Get list single resource with invalid parameter "<id>"
     When Send request get list single resource
