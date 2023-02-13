@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Put Update
   @Latihan @Put
   Scenario Outline: Put update user with json and valid parameter id
     Given Update user with valid json and parameter id <id>
@@ -23,7 +23,6 @@ Feature: Reqres API Automation Testing QE-9
       | 1  |
       | 2  |
       | 3  |
-
 
   @Tugas @PutUpdate @Negative
   Scenario Outline: Put update user with valid json and invalid parameter id

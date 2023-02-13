@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Post Register
   @Tugas @PostRegisters @Positive
   Scenario: Post register user with json
     Given Post register user with valid json

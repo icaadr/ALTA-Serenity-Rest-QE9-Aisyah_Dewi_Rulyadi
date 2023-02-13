@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Post Create
   @Latihan @PostCreate
   Scenario: Post create new user with valid json file
     Given Create new user with valid json

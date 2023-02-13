@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Post Login
   @Tugas @PostLogin @Positive
   Scenario: Post login user with json
     Given Post login user with valid json

@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Delete
     @Latihan @Delete
     Scenario Outline: Delete user with valid parameter id
     Given Delete user with valid id <id>
@@ -8,7 +8,6 @@ Feature: Reqres API Automation Testing QE-9
         | id  |
         | 1   |
         | 400 |
-
     @Tugas @Delete @Negative
     Scenario Outline: Delete user with invalid parameter id
         Given Delete user with invalid id "<id>"

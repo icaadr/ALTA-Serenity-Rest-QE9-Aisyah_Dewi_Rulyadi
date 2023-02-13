@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Get List Resource
   @Tugas @GetResource @Positive
   Scenario: Get list resource with valid parameter
     Given Get list resource with valid parameter unknown

@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Get List
   @Latihan @Get
   Scenario Outline: Get list users with valid parameter page
     Given Get list users with valid parameter page <page>

@@ -1,4 +1,4 @@
-Feature: Reqres API Automation Testing QE-9
+Feature: Reqres API Automation Testing QE-9 Get Single
   @Tugas @GetSingle @Positive
   Scenario Outline: Get single user with valid parameter id
     Given Get single user with valid id <id>
@@ -8,7 +8,6 @@ Feature: Reqres API Automation Testing QE-9
       | id |
       | 1  |
       | 12 |
-
   @Tugas @GetSingle @Negative
   Scenario Outline: Get single user with invalid parameter id
     Given Get single user with invalid id "<id>"
